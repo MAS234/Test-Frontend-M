@@ -1,0 +1,66 @@
+.contenedorSectorDos{
+    padding: 10px;
+}
+
+.sales{
+    width: 600px;
+    
+}
+
+.contenedorSlider {
+    color: white;
+    font-size: 17px;
+    
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    
+}
+
+.slider{
+
+    width: 600px;
+    height: 320px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .desabilitar{
+        display: none;
+    }
+
+    .contenedorSlider {
+        color: white;
+        font-size: 17px;
+        
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        text-align: center;
+
+    }
+
+    .slider{
+
+        width: 320px;
+        height: 200px;
+        border-radius: 20px;
+        
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .primerSector{
+        margin-top: -10px;
+    }
+
+
+    
+}

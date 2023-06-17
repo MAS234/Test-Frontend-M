@@ -1,0 +1,252 @@
+
+.navBar{
+    background-color: #24292E;
+    height: 70px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cotenedorNotiYPerfil{
+    
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.logo{
+    width: 50px;
+}
+
+.items a{
+    margin: 15px;
+    position: relative;
+    text-decoration: none;
+}
+
+.toggle{
+    display: none;
+}
+
+.navBar.open{
+    background-color: #24292E;
+    transition: 0.3s ease all;
+
+}
+
+
+.contenedorHamburguesa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorBusqueda{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 5px;
+}
+
+.contenedorInput {
+    position: relative;
+  }
+  
+  .icono {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  input {
+    all: unset;
+    background-color: #1C2126;
+    padding: 10px;
+    border-radius: 10px;
+    width: 400px;
+    padding-left: 30px;
+
+    color: #13B497;
+  }
+
+  .iconoConfi{
+    background-color: #13B497;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;
+
+    width: 20px;
+    height: 20px;
+  }
+
+  .iconoConfi:hover{
+    background-color: #191a1b;
+    transition: 0.5s ease;
+    cursor: pointer;
+
+  }
+
+.contenedorPerfil{
+    box-shadow: 0px 0px 2px  #EEFFF3;
+    color: white;
+    border-radius: 5px;
+    gap: 10px;
+    height: 40px;
+
+    display: flex;
+    padding-right: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.iconoNoti{
+    background-color: #2F363D;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 5px;
+
+    width: 20px;
+    height: 20px;
+}
+
+
+.iconoNoti:hover{
+    background-color: #191a1b;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.contenedorPerfil p{
+    font-size: 12px;
+}
+
+.perfil{
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+}
+
+
+.items{
+    position: absolute;
+    top: 60px;
+    left: 0;
+    font-size: 20px;
+    background-color: #13B497;
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    width: 20%;
+    height: -webkit-fill-available;
+    transform: translateX(-100%);
+    transition: 0.3s ease all;
+
+    border-radius:10px ;
+}
+
+.items a{
+    color: rgb(255, 255, 255);
+    transition: .5s ease;
+
+}
+
+.items a:hover{
+    color: #24292E;
+    transition: .5s ease;
+}
+
+.items.open{
+    transform: translateX(0) !important;
+}
+
+.toggle{
+    display: flex !important;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.toggle span{
+    width: 25px;
+    height: 2.5px;
+    background-color: white;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transform-origin: 5px 0px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.toggle.open > span{
+    transform: rotate(45deg) translate(0px, 0px);
+    background-color: rgb(255, 255, 255);
+
+}
+
+.toggle.open > span:nth-child(2){
+    display: none;
+}
+
+.toggle.open > span:nth-child(3){
+    transform: rotate(-45deg) translate(-5px, 1px);
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+@media (max-width: 768px) {
+
+    .desabilitar{
+        display: none;
+    }
+
+    .navBar{
+        justify-content: space-between;
+    }
+
+    .iconoNoti{
+
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+
+    }
+
+    .cotenedorNotiYPerfil{
+        gap: 10px;
+    }
+
+    
+    .contenedorPerfil{
+        box-shadow: 0px 0px 2px  #EEFFF3;
+        border-radius: 5px;
+        gap: 10px;
+
+        display: flex;
+        padding: 5px;
+    }
+
+
+    .perfil{
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+    }
+
+    .items{
+        width: 100%;
+        border-radius:0px ;
+        height: 200%;
+
+
+    }
+ 
+
+
+}

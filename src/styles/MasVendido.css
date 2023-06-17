@@ -1,0 +1,148 @@
+.contenedor{
+    background-color: #272E35;
+    border-radius: 10px;
+    padding: 10px;
+
+    width: 40rem;
+    height: 21rem;
+
+     
+}
+
+.ContenedorchartCircular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.contenedorGraficos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.minititulo{
+    font-size: 20px;
+}
+
+
+.alinear{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+
+
+    height: 40px;
+}
+
+.barra{
+    background-color: #20262D;
+    color: white;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+    align-items: center;
+    font-size: 10px;
+    height: 20px;
+}
+
+.selectimg{
+    display: flex;
+    gap: 5px;
+    font-size: 10px;
+}
+
+
+.ChartContenedor{
+    width: 200px;
+    height: 180px;
+}
+
+.contenedorColores{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+    
+    font-size: 9px;
+}
+
+.iconoCuadrado{
+    width: 20px;
+    height: 20px;
+}
+
+.contenedorBarra{
+    margin-top: 70px;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+    .contenedor{
+        width: 300px;
+        height: 400px;
+    
+         padding: 20px;
+    }
+
+    .minititulo{
+        font-size: 20px;
+    }
+
+    .desabilitar{
+        display: none;
+    }
+
+    .alinear{
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        align-items: center;
+
+
+        height: 40px;
+    }
+    
+    .barra{
+        background-color: #20262D;
+        color: white;
+        border-radius: 10px;
+    
+        display: flex;
+        justify-content: space-between;
+        padding: 6px;
+        align-items: center;
+        font-size: 10px;
+
+        height: 20px;
+
+    }
+
+    .contenedorColores{
+        display: flex;
+        color: white;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+        
+        font-size: 10px;
+    }
+
+    .iconoCuadrado{
+        width: 30px;
+        height: 30px;
+    }
+}

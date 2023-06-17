@@ -1,0 +1,49 @@
+.contenedorKid3{
+    width: 50%;
+    height: 130px;
+    border-radius: 10px;
+    background-color: #2F363D;
+
+}
+
+.contenedorTexto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+.contenedorTexto p{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.contenedorDaily{
+    font-size: 12px;
+    color: #B7B7B7;
+    display: flex;
+    gap: 8px;
+   
+}
+
+.contenedorDaily img{
+    width: 12px;
+}
+
+.tikect{
+    color: #ffffff9e;
+    font-size: 10px;
+   display: flex;
+   position: relative;
+   margin-top: -10px;
+   margin-left: 40px;
+}
+
+@media (max-width: 768px) {
+    .contenedorKid3{
+        width: 100%;
+
+    }
+}
